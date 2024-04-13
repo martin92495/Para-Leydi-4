@@ -1,0 +1,40 @@
+*{margin: 0;pading: 0;box-sizing:
+border-box;
+    font-family: sans-serif;}
+    body{
+        background-image: url("2.jpg");
+        height: 50vh;
+        background-repeat: no repeat;
+        background-size: contain;
+        }
+.contenedor{
+    width: 100%;
+    max-width: 370px;
+    margin: auto;
+    margin-top: 100px;
+    background: #ffff;
+    padding: 15px;
+    height: 400px;
+    overflow: auto;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.45);
+}
+.contenedor h3{
+    color: indianred;
+        font-weight: 400;
+        margin-bottom: 20px;
+}
+.contenedor p{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.contenedor::-webkit-scrollbar{
+    width: 12px;
+    background: #efefef;
+}
+.contenedor::-webkit-scrollbar-thumb{
+    background: indianred;
+    border-radius: 5px;
+}
